@@ -1,10 +1,10 @@
 # BoomBox (WIP)
 
-BoomBox is a mod of Jukebox, which is a mod of Slarmoo's box, which is an online tool for sketching and sharing instrumental music.
+BoomBox is a mod of Slarmoo's box, which is an online tool for sketching and sharing instrumental music.
 You can find Slarmoo's Box [here](https://github.com/slarmoo/slarmoosbox/).
 It is a modification of [Ultrabox](https://ultraabox.github.io), which is a modification of [JummBox](https://github.com/jummbus/jummbox), which inturn is a modification of the [original BeepBox](https://beepbox.co).
 
-BoomBox is a mod of Jukebox that aims to advance Beepbox's capabilities. Feel free to contribute!
+BoomBox is a mod of Slarmoos Box that aims to advance Beepbox's capabilities. Feel free to contribute!
 
 
 All song data is packaged into the URL at the top of your browser. When you make
