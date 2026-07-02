@@ -11,6 +11,7 @@ const { button, div, h2, select, option, optgroup } = HTML;
 export class ThemePrompt implements Prompt {
 	private readonly _themeSelect: HTMLSelectElement = select({ style: "width: 100%;" },
 		optgroup({ label: "Default Themes" },
+			option({ value: "boombox" }, "BoomBox"),
 			option({ value: "slarmoosbox" }, "Slarmoo's Box"),
 			option({ value: "forest" }, "Forest"),
 			option({ value: "canyon" }, "Canyon"),
@@ -35,7 +36,6 @@ export class ThemePrompt implements Prompt {
 			option({ value: "blutonium" }, "Blutonium"),
 			option({ value: "greyscale" }, "Greyscale"),
 			option({ value: "slushie" }, "Slushie"),
-			option({ value: "boombox" }, "BoomBox"),
 		),
 		optgroup({ label: "Mod Themes" },
 			option({ value: "dark classic" }, "BeepBox Dark"),
