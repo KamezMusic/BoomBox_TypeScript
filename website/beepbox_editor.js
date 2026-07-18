@@ -8721,7 +8721,150 @@ var beepbox = (function (exports) {
 		  --mod4-primary-note: #fff;
 		  --disabled-note-primary: #3a3a3a;
 		  --disabled-note-secondary: #000;
-			}
+			}',
+           "boombox":
+	        :root {
+			--page-margin: #170317;
+			--editor-background: #170317;
+			--hover-preview: white;
+			--playhead: #dbd;
+			--primary-text: #dbd;
+			--secondary-text: #dbd;
+			--inverted-text: black;
+			--text-selection: #c2a855;
+			--box-selection-fill: rgba(255, 255, 255, 0.2);
+			--loop-accent: #505;
+			--link-accent: #fff570;
+			--ui-widget-background: #191721;
+			--ui-widget-focus: #2d293b;
+			--pitch-background: #443d4a;
+			--tonic: #636;
+			--fifth-note: #424;
+			--third-note: #212;
+			--white-piano-key: #bbb8;
+			--black-piano-key: #4448;
+			--white-piano-key-text: #101;
+			--black-piano-key-text: #faf;
+			--use-color-formula: false;
+			--pitch-channel-limit: 10;
+			--track-editor-bg-pitch: #444;
+			--track-editor-bg-pitch-dim: #333;
+			--track-editor-bg-noise: #444;
+			--track-editor-bg-noise-dim: #333;
+			--track-editor-bg-mod: #234;
+			--track-editor-bg-mod-dim: #123;
+			--multiplicative-mod-slider: #456;
+			--overwriting-mod-slider: #654;
+			--indicator-primary: #6a38ff;
+			--indicator-secondary: #444;
+			--select2-opt-group: #585858;
+			--input-box-outline: #403b4f;
+			--mute-button-normal: #ffa033;
+			--mute-button-mod: #8066cc;
+
+			--pitch1-secondary-channel: #891;
+			--pitch1-primary-channel: #df5;
+			--pitch1-secondary-note: #891;
+			--pitch1-primary-note: #df5;
+
+			--pitch2-secondary-channel: #363;
+			--pitch2-primary-channel: #5d5;
+			--pitch2-secondary-note: #363;
+			--pitch2-primary-note: #5d5;
+
+			--pitch3-secondary-channel: #035;
+			--pitch3-primary-channel: #068;
+			--pitch3-secondary-note: #035;
+			--pitch3-primary-note: #068;
+
+			--pitch4-secondary-channel: #636;
+			--pitch4-primary-channel: #c5c;
+			--pitch4-secondary-note: #636;
+			--pitch4-primary-note: #c5c;
+
+			--pitch5-secondary-channel: #806;
+			--pitch5-primary-channel: #d0a;
+			--pitch5-secondary-note: #806;
+			--pitch5-primary-note: #d0a;
+
+			--pitch6-secondary-channel: #810;
+			--pitch6-primary-channel: #f20;
+			--pitch6-secondary-note: #810;
+			--pitch6-primary-note: #f20;
+
+			--pitch7-secondary-channel: #620;
+			--pitch7-primary-channel: #d50;
+			--pitch7-secondary-note: #620;
+			--pitch7-primary-note: #d50;
+
+			--pitch8-secondary-channel: #9a0;
+			--pitch8-primary-channel: #de3;
+			--pitch8-secondary-note: #9a0;
+			--pitch8-primary-note: #de3;
+
+			--pitch9-secondary-channel: #360;
+			--pitch9-primary-channel: #690;
+			--pitch9-secondary-note: #360;   
+			--pitch9-primary-note: #690;
+
+			--pitch10-secondary-channel: #016;
+			--pitch10-primary-channel: #04c;
+			--pitch10-secondary-note: #016;
+			--pitch10-primary-note: #04c;
+
+			--noise1-secondary-channel: #6F6F6F;
+			--noise1-primary-channel: #AAAAAA;
+			--noise1-secondary-note: #A7A7A7;
+			--noise1-primary-note: #E0E0E0;
+
+			--noise2-secondary-channel: #996633;
+			--noise2-primary-channel: #DDAA77;
+			--noise2-secondary-note: #CC9966;
+			--noise2-primary-note: #F0D0BB;
+
+			--noise3-secondary-channel: #4A6D8F;
+			--noise3-primary-channel: #77AADD;
+			--noise3-secondary-note: #6F9FCF;
+			--noise3-primary-note: #BBD7FF;
+
+			--noise4-secondary-channel: #7A4F9A;
+			--noise4-primary-channel: #AF82D2;
+			--noise4-secondary-note: #9E71C1;
+			--noise4-primary-note: #D4C1EA;
+
+			--noise5-secondary-channel: #607837;
+			--noise5-primary-channel: #A2BB77;
+			--noise5-secondary-note: #91AA66;
+			--noise5-primary-note: #C5E2B2;
+
+			--mod1-secondary-channel: #339955;
+			--mod1-primary-channel: #77fc55;
+			--mod1-secondary-note: #77ff8a;
+			--mod1-primary-note: #cdffee;
+
+			--mod2-secondary-channel: #993355;
+			--mod2-primary-channel: #f04960;
+			--mod2-secondary-note: #f057a0;
+			--mod2-primary-note: #ffb8de;
+
+			--mod3-secondary-channel: #553399;
+			--mod3-primary-channel: #8855fc;
+			--mod3-secondary-note: #aa64ff;
+			--mod3-primary-note: #f8ddff;
+
+			--mod4-secondary-channel: #a86436;
+			--mod4-primary-channel: #c8a825;
+			--mod4-secondary-note: #e8ba46;
+			--mod4-primary-note: #fff6d3;
+
+			--mod-label-primary: #999;
+			--mod-label-secondary-text: #333;
+			--mod-label-primary-text: black;
+			--disabled-note-primary: #999;
+			--disabled-note-secondary: #666;
+
+			--pitch1-background: #777;
+		}	    
 		/* replaces hotdog with an image of the girls using the same scratch sprites from the 404 page*/
 		#Hotdog {
 			display: inline !important;
