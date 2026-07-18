@@ -472,8 +472,8 @@ var beepbox = (function (exports) {
             return wave;
         }
 		static generateWhiteNoise() {
-            const wave = new Float32Array(44100);
-            for (let i = 0; i < 44100; i++) {
+            const wave = new Float32Array(100000);
+            for (let i = 0; i < 1000000; i++) {
                 wave[i] = Math.random() * 2 - 1;
             }
             return wave;
