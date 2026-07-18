@@ -36,10 +36,7 @@ export class ThemePrompt implements Prompt {
 			option({ value: "blutonium" }, "Blutonium"),
 			option({ value: "greyscale" }, "Greyscale"),
 			option({ value: "slushie" }, "Slushie"),
-<<<<<<< HEAD
-			option({ value: "boombox" }, "BoomBoxWIP"),
-=======
->>>>>>> da7a5aec9d8de9d76f29a8036ece1d2b8d1e022a
+			option({ value: "boombox" }, "BoomBox"),
 		),
 		optgroup({ label: "Mod Themes" },
 			option({ value: "dark classic" }, "BeepBox Dark"),
