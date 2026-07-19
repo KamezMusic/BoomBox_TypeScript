@@ -46025,7 +46025,7 @@ You should be redirected to the song at:<br /><br />
                     const url = sampleLoadingState.urlTable[chipWaveIndex];
                     const loadingStatus = getSampleLoadingStatusName(sampleLoadingState.statusTable[chipWaveIndex]);
                     const urlDisplay = input$2({ style: `margin-left: 0.5em; color: ${ColorConfig.primaryText}; background-color: ${ColorConfig.editorBackground}; width: 100%; border: 1px solid ${ColorConfig.uiWidgetBackground}; -webkit-user-select: none; -webkit-touch-callout: none; -moz-user-select: none; -ms-user-select: none; user-select: none;`, value: url, title: url, disabled: true });
-                    const loadingStatusColor = loadingStatus === "loaded" ? ColorConfig.indicatorPrimary : ColorConfig.secondaryText;
+                    const loadingStatusColor = loadingStatus === "success" ? ColorConfig.indicatorPrimary : ColorConfig.secondaryText;
                     const loadingStatusDisplay = span$2({ style: `margin-left: 0.5em; color: ${loadingStatusColor}` }, loadingStatus);
                     const chipWaveElement = div$3({ style: `padding: 0.6em; margin: 0.4em; border: 1px solid ${ColorConfig.uiWidgetBackground}; border-radius: 4px;` }, div$3({
                         class: "add-sample-prompt-sample-name",
