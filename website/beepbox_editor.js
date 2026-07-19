@@ -36,7 +36,7 @@ var beepbox = (function (exports) {
     function getSampleLoadingStatusName(status) {
         switch (status) {
             case 0: return "loading";
-            case 1: return "loaded";
+            case 1: return "success";
             case 2: return "error";
         }
     }
